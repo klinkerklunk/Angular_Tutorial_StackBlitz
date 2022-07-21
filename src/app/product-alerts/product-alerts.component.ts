@@ -1,5 +1,5 @@
-//import { Component, OnInit } from '@angular/core';
-import { Component, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+//import { Component, Input } from '@angular/core';
 import { Product } from '../products';
 
 @Component({
@@ -11,7 +11,7 @@ export class ProductAlertsComponent implements OnInit {
 
   constructor() { }
 
-  //ngOnInit(): void {
-  //}
+  ngOnInit(): void {
+  }
 
 }
